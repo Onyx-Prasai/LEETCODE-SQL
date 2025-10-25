@@ -13,4 +13,5 @@ round(
 ) as processing_time
 from Activity a
 group by a.machine_id
+
 ;
